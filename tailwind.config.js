@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        sage: "#7D9E85",
+        sage: "#E49478",
         sagedark: "#637e6a",
-        cream: "#F9F0EB",
+        cream: "#10100F",
       },
       keyframes: {
         movein: {

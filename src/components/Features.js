@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import feature1 from "../images/feature1.png";
-import feature1_5 from "../images/feature1-5.png";
+
 import feature2 from "../images/feature2.png";
 import feature3 from "../images/feature3.png";
 
@@ -13,19 +13,13 @@ export default function Features() {
             <div>
               <div className="mt-6 pb-11 pt-11">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-                  Setting you in the right mood to focus better
+                  A beautiful place to get into your writing zone
                 </h2>
 
                 <p className="mt-4 text-lg text-gray-500 ">
-                  Choose where you want to be with our selections of immersive
-                  playlists and background so you can be in a calm,
-                  distraction-free environment.
+                  Immersive audio and visuals designed to provide the ideal
+                  environment you want to be in.
                 </p>
-                <img
-                  className="max-w-sm pt-9 "
-                  src={feature1_5}
-                  alt="Atmospheres to help you focus"
-                />
               </div>
             </div>
           </div>
@@ -47,13 +41,11 @@ export default function Features() {
             <div>
               <div className="mt-6">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-                  Set your writing goal. We will help you reach it
+                  Zero-formatting{" "}
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Writing is like a marathon. It’s not about reaching a big
-                  goal, it’s about doing it regularly. Set your writing goals
-                  and our smart notifications will guide you to write weekly or
-                  daily!
+                  Remove the distraction of colour-picking and font-sizing.
+                  Focus on the important stuff.
                 </p>
               </div>
             </div>
@@ -76,15 +68,13 @@ export default function Features() {
             <div>
               <div className="mt-6 pb-11 pt-11">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-                  Stay motivated and receive points
+                  One writing, endless formating possibilities{" "}
                 </h2>
 
                 <p className="mt-4 text-lg text-gray-500 ">
-                  Make progress and earn points! Don’t forget to reward yourself
-                  after all your hard work. You can use Writemind points for
-                  printing your work, purchasing new backgrounds, music,
-                  unlocking educational videos from professional writers and
-                  more.
+                  Let your work shine and show it off the way it deserves
+                  without designing yourself. Our theme library allows you to
+                  change the format in one click.
                 </p>
               </div>
             </div>

@@ -7,7 +7,7 @@ import { useContext } from "react";
 const CustomForm = ({ status, message, onValidated }) => {
   const [price] = useContext(PriceContext);
 
-  const landingpage = "sharing";
+  const landingpage = "No formatting, easy sharing";
 
   const [email, setEmail] = useState("");
 
@@ -38,7 +38,7 @@ const CustomForm = ({ status, message, onValidated }) => {
       <form className="" onSubmit={(e) => handleSubmit(e)}>
         <div className="grid grid-cols-5 gap-2 md:min-w-[550px]">
           {status === "success" && (
-            <p className="col-span-1 lg:col-span-5 mb-5 	 text-lg text-gray-500">
+            <p className="col-span-1 lg:col-span-5 mb-5 	 text-lg text-gray-400">
               Success. You will be notified when we launch.
             </p>
           )}
@@ -46,7 +46,7 @@ const CustomForm = ({ status, message, onValidated }) => {
             Email address
           </label>
           {status !== "success" ? (
-            <p className="col-span-full	 lg:col-span-5 mb-5 	text-left text-lg text-gray-500">
+            <p className="col-span-full	 lg:col-span-5 mb-5 	text-left text-lg text-gray-400">
               Join the waitlist for early access
             </p>
           ) : null}
@@ -82,7 +82,7 @@ const CustomForm = ({ status, message, onValidated }) => {
           ) : null}
         </div>
         {status === "sending" && (
-          <p className="lg:col-span-5 mb-5 	 text-lg text-gray-500">
+          <p className="lg:col-span-5 mb-5 	 text-lg text-gray-400">
             sending...
           </p>
         )}

@@ -17,7 +17,7 @@ export default function ShowPrice() {
       {open ? (
         <div className="">
           <div className="animate-[moveout_.2s_ease-out_forwards]">
-            <h2 className="min-w-max text-center absolute text-3xl font-bold tracking-tight text-gray-900 sm:block sm:text-4xl lg:text-left">
+            <h2 className="min-w-max text-center absolute text-3xl font-bold tracking-tight text-white sm:block sm:text-4xl lg:text-left">
               <span className=" text-sage">+ See Pricing</span>
             </h2>
           </div>
@@ -25,7 +25,7 @@ export default function ShowPrice() {
             className="animate-[movein_.2s_ease-in_forwards] "
             id="price_visible"
           >
-            <h2 className="min-w-max text-center absolute text-3xl font-bold tracking-tight text-gray-900 sm:block sm:text-4xl lg:text-left  ">
+            <h2 className="min-w-max text-center absolute text-3xl font-bold tracking-tight text-white sm:block sm:text-4xl lg:text-left  ">
               Subscription only{" "}
               <span className=" text-sage">{price} month</span>
             </h2>
@@ -33,7 +33,7 @@ export default function ShowPrice() {
         </div>
       ) : (
         <div id="seemore">
-          <h2 className="min-w-max cursor-pointer absolute text-3xl font-bold tracking-tight text-gray-900 sm:block sm:text-4xl hover:text-sage">
+          <h2 className="min-w-max cursor-pointer absolute text-3xl font-bold tracking-tight text-white sm:block sm:text-4xl hover:text-sage">
             <span className=" text-sage">+ </span> See Pricing
           </h2>
         </div>
